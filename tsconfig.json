@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+  
+    "target": "es5",                                
+    "module": "commonjs",                           
+    "strict": true,                                 
+    "baseUrl": "src",
+    "paths": {
+      "@config/*": ["config/*"]
+    },
+    "outDir": "dist",                               
+    "esModuleInterop": true,                        
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+  
+}
